@@ -52,4 +52,34 @@ spec:
     app: postgres
 
 ---
-
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: backend
+spec:
+  selector:
+    matchLabels:
+      app: backend
+  template:
+    metadata:
+      labels:
+        app: backend
+    spec:
+      containers:
+        - name: backend
+          image: final_assignment-backend 
+          ports:
+            - containerPort: 8080
+          imagePullPolicy: Never
+          env:
+           - name: db_address
+             value: db 
+           - name: db_username
+             value: postgres
+           - name: db_name
+             value: postgres
+           - name: POSTGRES_PASSWORD
+             valueFrom:
+              secretKeyRef:
+                name: postgres-secret
+                key: POSTGRES_PASSWORD

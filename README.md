@@ -1,3 +1,9 @@
+# ROTC PARTICIPANTS
+
+- Sayan Roy
+- Prajakta Dhage
+
+
 # The Rise of the Containers (semi-guided) material
 
 

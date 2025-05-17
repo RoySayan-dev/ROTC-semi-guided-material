@@ -69,7 +69,7 @@ spec:
         - name: backend
           image: final_assignment-backend 
           ports:
-            - containerPort: 8080
+            - containerPort: 8000
           imagePullPolicy: Never
           env:
            - name: db_address
@@ -83,3 +83,14 @@ spec:
               secretKeyRef:
                 name: postgres-secret
                 key: POSTGRES_PASSWORD
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: backend-service
+spec:
+  type: ClusterIP
+  selector:
+    app: backend
+  por

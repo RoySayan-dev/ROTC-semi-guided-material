@@ -1,4 +1,10 @@
 fileignoreconfig:
+- filename: final_assignment/kubernetes/backend.yaml
+  checksum: b53bed64c4a3749f1c29e91f781aa34c5a0e60dde6ab4b5038ba9d72d36dc564
+- filename: final_assignment/kubernetes/database.yaml
+  checksum: 2058694194e2ed17d00b8d41d16e50c22dacf0b344ef63a2befebf8cd4100ffc
 - filename: final_assignment/kubernetes/deployment.yaml
   checksum: e573d184fe0137e4011388439b4d07d70f239bce230b1cbd2f83070e8e8260ff
+- filename: final_assignment/kubernetes/secret.yaml
+  checksum: 3a191b791f5c793b813b83a526227ee216431cf012d6a9c3abee638c0592a021
 version: "1.0"

@@ -1,3 +1,9 @@
+# ROTC PARTICIPANTS
+
+- Sayan Roy [sayan.roy@thoughtworks.com]
+- Prajakta Dhage [prajakta.dhage@thoughtworks.com]
+
+
 # Kubernetes Assignment
 
 ## New Project - Crud REST API MVP

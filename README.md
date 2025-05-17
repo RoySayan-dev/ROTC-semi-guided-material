@@ -1,7 +1,7 @@
 # ROTC PARTICIPANTS
 
-- Sayan Roy
-- Prajakta Dhage
+- Sayan Roy [sayan.roy@thoughtworks.com]
+- Prajakta Dhage [prajakta.dhage@thoughtworks.com]
 
 
 # The Rise of the Containers (semi-guided) material

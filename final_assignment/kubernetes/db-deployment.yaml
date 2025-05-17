@@ -35,17 +35,3 @@ spec:
           volumeMounts:
             - name: postgres-volume
               mountPath: /var/lib/postgresql/data
-
----
-apiVersion: v1
-kind: Service
-metadata:
-  name: postgres-service
-  namespace: crud-app
-spec:
-  type: ClusterIP
-  ports:
-    - port: 5432
-      targetPort: 5432
-  selector:
-    app: postgres

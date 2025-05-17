@@ -1,0 +1,4 @@
+fileignoreconfig:
+- filename: final_assignment/kubernetes/deployment.yaml
+  checksum: e573d184fe0137e4011388439b4d07d70f239bce230b1cbd2f83070e8e8260ff
+version: "1.0"
